@@ -1,0 +1,32 @@
+.medi-img img{
+	width:100%;
+}
+.banner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.banner img{
+	width:100%;
+}
+.text-on-banner{
+	position: absolute;
+}
+.text-on-img h3{
+	color:#fff;
+}
+.imgMedi img{
+	width:100%;
+}
+.btnCust{
+	background:purple;
+	display: block;
+	margin:1rem 0;
+	color:#fff!important;
+}
+
+
+
+
+

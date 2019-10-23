@@ -1,0 +1,177 @@
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.tg td{
+    font-family:Arial, sans-serif;
+    font-size:16px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+.tg th{
+    font-family:Arial, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+.tg .tg-xnaw{
+    border-color:#630a6f;
+    text-align:center;
+    vertical-align:top;
+}
+.tg .tg-mj3n{
+    font-weight:bold;
+    background-color:#630a6f;
+    color:#efefef;
+    border-color:#630a6f;
+    text-align:center;
+    vertical-align:top;
+}
+.tg .tg-hfrq{
+    border-color:#630a6f;
+    text-align:center;
+    vertical-align:top;
+}
+.tg .tg-fxkg{
+    font-weight:bold;
+    background-color:#630a6f;
+    color:#ffffff;
+    border-color:#630a6f;
+    text-align:center;
+    vertical-align:top;
+}
+.tg .tg-qmtv{
+    font-weight:bold;
+    color:#800080;
+    border-color:#630a6f;
+    text-align:center;
+    vertical-align:top;
+}
+.tg .tg-0lax{
+    text-align:center;
+    vertical-align:top;
+}
+
+/** Table - 2 **/
+.tb2{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.tb2 td{
+    font-family:Arial, sans-serif;
+    font-size:16px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+.tb2 th{
+    font-family:Arial, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+.tb2 .tb2-cbjw{
+    font-weight:bold;
+    background-color:#630a6f;
+    color:#ffffff;
+    border-color:#000000;
+    text-align:left;
+    vertical-align:top;
+}
+.tb2 .tb2-qbz3{
+    font-weight:bold;
+    background-color:#630a6f;
+    color:#efefef;
+    border-color:#000000;
+    text-align:left;
+    vertical-align:top;
+}
+.tb2 .tb2-wp8o{
+    border-color:#000000;
+    text-align:center;
+    vertical-align:top;
+}
+.tb2 .tb2-mcqj{
+    font-weight:bold;
+    border-color:#000000;
+    text-align:left;
+    vertical-align:top;
+}
+.tb2 .tb2-5uj6{
+    font-weight:bold;
+    background-color:#ffffff;
+    color:#630a6f;
+    border-color:#000000;
+    text-align:center;
+    vertical-align:top;
+}
+.tb2 .tb2-mqa1{
+    background-color:#630a6f;
+    color:#ffffff;
+    font-weight:bold;
+    border-color:#000000;
+    text-align:center;
+    vertical-align:top;
+}
+
+/** Table - 3 Daily Schedule **/
+
+.dlsch{
+    width:100%;
+    margin-top:32px;
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.dlsch td{
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+.dlsch th{
+    font-weight:normal;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+.dlsch .dlsch-91og{
+    background-color:#efefef;
+    border-color:#630a6f;
+    text-align:center;
+    vertical-align:top;
+}
+.dlsch .dlsch-5pq7{
+    font-weight:bold;
+    letter-spacing: 1px;
+    background-color:#630a6f;
+    border-color:#630a6f;
+    text-align:center;
+    vertical-align:top;
+}
+.dlsch .dlsch-hfrq{
+    border-color:#630a6f;
+    text-align:center;
+    vertical-align:top;
+}

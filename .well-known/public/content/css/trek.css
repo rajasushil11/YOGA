@@ -1,0 +1,28 @@
+.banner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.banner img{
+	width:100%;
+}
+.text-on-banner{
+	position: absolute;
+}
+.text-on-img h3{
+	color:#fff;
+}
+.trek-img img{
+	width:100%;
+	text-align: center;
+	background: #00b3b3;
+}
+.anna-img img{
+	width:100%;
+}
+.trekbtn{
+	background-image:linear-gradient(to bottom left,#1a0b8c, #fa50cb);
+	color:#fff;
+}
+

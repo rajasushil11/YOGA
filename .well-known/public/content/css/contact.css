@@ -1,0 +1,35 @@
+
+.banner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.banner img{
+	width:100%;
+}
+.text-on-banner{
+	position: absolute;
+}
+.text-on-img h3{
+	color:#fff;
+}
+.accom-radio{
+	margin-bottom: 1rem;
+}
+.btnSel{
+	color:purple;
+	border-radius: 0;
+	border:2px solid purple;
+}
+.btnCust{
+	color:#fff;
+	background-image: linear-gradient(to bottom left,#1a0b8c, #fa50cb);
+	border:none;
+	padding:.5rem;
+	border-radius: 0;
+	border: 0;
+}
+.myclr{
+	color: purple;
+}

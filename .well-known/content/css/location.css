@@ -1,0 +1,16 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h3{
+	color:purple;
+}
+/*.map-div{*/
+/*	border-top:2px solid purple;*/
+/*}*/
+.btnCust{
+	color:#fff;
+	background-image: linear-gradient(to bottom left,#1a0b8c, #fa50cb);
+	border:none;
+	border-radius:.5rem;
+	padding:.5rem;
+}

@@ -1,0 +1,51 @@
+@media (min-width:1200px){
+
+}
+
+@media (min-width:992px) and (max-width: 1199px){
+	.second-div-position{
+			height:42%;
+		}
+	.popular-img img{
+		
+	}
+	.meet-teachers-img img{
+		
+	}
+}
+
+@media (min-width:768px) and (max-width: 991px){
+		.second-div-position{
+			height:50%;
+		}
+}
+
+@media (min-width:576px) and (max-width: 767px){
+	.second-div-position{
+		height:60%;
+	}
+	.popular-img img{
+		height:30rem;
+	}
+	.meet-teachers-img img{
+		height:30rem;
+	}
+}
+
+@media (min-width:320px) and (max-width: 575px){
+	.secondDiv{
+		padding:.5rem;
+	}
+	.secondDivContent h1{
+		text-align: center;
+	}
+	.secondDivContent p{
+		text-align: justify;
+	}
+	.owl-item .item iframe{
+		
+	}
+	.second-div-position{
+		height: 76%;
+	}
+}

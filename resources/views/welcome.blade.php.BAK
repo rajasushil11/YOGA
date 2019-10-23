@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143349823-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143349823-1');
+</script>
+    <!-- Required meta tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ url('content/bootstrap/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Font-->
+    <link rel="stylesheet" href="{{ url('content/css/font.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/g/jquery.owlcarousel@1.31(owl.carousel.css+owl.theme.css)">
+
+    <!-- custome css -->
+    <link rel="stylesheet" href="{{ url('content/css/footer.css')}}">
+    <link rel="stylesheet" href="{{ url('content/css/navbar.css')}}">
+   
+    <link rel="stylesheet" href="{{ url('content/css/style.css')}}">
+    <link rel="stylesheet" href="{{ url('content/css/responsive.css')}}">
+
+    <title>Shivalayas- Book Exclusive Yoga Teacher Training in Nepal</title>
+     <meta name="description" content="Shivalaya Yoga Ashram offers RYT 200 hour, 300 hour and 500 hour residential multi-style yoga teacher training exclusively only for yoga enthusiast in Pokhara, Nepal." />
+    <meta name="keywords" content="Yoga teacher training in Nepal"/>
+    <meta name="topic" content="RYT 200, RYT 300, and RYT 500, Yoga Alliance registered school (RYS)"/>
+    <meta name="abstract" content="Yoga teacher training, 200 hour yoga teacher training, 300 hours yoga teacher training, 500 hours yoga teacher training, 200 RYS, 300 RYS, 500 RYS, yoga teacher training in nepal, yoga teacher training in pokhara"/>
+    <meta name="author" content=""/>
+    <link rel="shortcut icon" type="image/png" href="{{ url('content/img/favicon.png') }}"/>
+  </head>
+  <body>
+   <div id="spinoverlay" >
+      <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+            <p>Loading...</p>
+        </div>
+  </div>
+
+    <nav class="navbar navbar-light bg-white navbar-expand-lg sticky-top p-0">
+      <a class="navbar-brand p-0" href="{{ url('/') }}"><img src="{{ url('content/img/logo.png')}}" alt="Shivalaya Yoga Ashram"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shivanavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse"  id="shivanavbar">
+      <ul class="navbar-nav w-100 justify-content-around">
+        <li class="nav-item dropdown">
+          <a  href="{{ url('/shivalayayttc') }}" class="nav-link dropdown-toggle" id="yttcDropdown" data-hover="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          YOGA COURSES
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="yttcDropdown">
+            <a href="{{ url('/ryt-200-hour-yoga-teacher-training') }}" class="dropdown-item">200 HOURS YTTC</a>
+            <a href="{{ url('/ryt-300-hour-yoga-teacher-training') }}" class="dropdown-item">300 HOURS YTTC</a>
+            <a href="{{ url('/ryt-500-hour-yoga-teacher-training') }}" class="dropdown-item">500 HOURS YTTC</a>
+            <a href="{{ url('/200-hour-tantra-yoga-teacher-training') }}" class="dropdown-item">200 HOURS TANTRA YTTC</a>
+            
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="curriculumDropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">
+          CURRICULUM
+          </a>
+          <div class="dropdown-menu" aria-labelledby="curriculumDropdown">
+            <a href="{{ url('/200-hour-yttc-curriculum') }}" class="dropdown-item">200 HOURS</a>
+            <a href="{{ url('/300-hour-yttc-curriculum') }}" class="dropdown-item">300 HOURS</a>
+            <a href="{{ url('/500-hour-yttc-curriculum') }}" class="dropdown-item">500 HOURS</a>
+          </div>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="beginnersyogaDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+          BEGINNERS YOGA
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">BEGINNERS YOGA</a>
+            <a href="meditation.html" class="dropdown-item">MEDITATION</a>
+          </div>
+        </li> -->
+        <!-- <li class="nav-item"><a class="nav-link" href="{{ url('/features') }}">FEATURES</a></li> -->
+        <li class="nav-item"><a class="nav-link" href="{{ url('/spiritual-retreat') }}">SPIRITUAL RETREAT</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ url('/location') }}">LOCATION</a></li>         <li class="nav-item active"><a class="nav-link" href="{{ url('/gallery') }}">GALLERY</a></li>
+        <li class="nav-item active"><a class="nav-link" href="{{ url('/organic-garden') }}">ORGANIC GARDEN</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ url('/contact-us') }}">CONTACT US</a></li>
+        <li class="nav-item"><a class="nav-link bookbtn" href="{{ url('/details') }}">BOOK NOW</a></li>
+      </ul>
+      </div>
+    </nav>
+
+<section>
+  <div class="imgDiv">
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-center headingDiv">
+        <!-- <img src="{{ url('content/img/shivalayabg1500.jpg')}}" alt="Shivalaya Ashram" class="d-none d-md-block">
+        <img src="{{ url('content/img/shivalayabg765.jpg')}}" alt="Shivalaya Nepal" class="d-block d-md-none"> -->
+        <video width="100%" id="vid" autoplay muted loop>
+          <source src="content/videos/shivalayayogaashram.m4v" type="video/mp4">
+        </video>
+       <!--  <div class="col-md-7 d-flex justify-content-center banner-heading">
+          <div class="heading d-flex flex-column align-items-center">
+            <h1 class="text-center">SHIVALAYA YOGA ASHRAM</h1>
+            <p>AN OASIS FOR SPIRITUALITY AND A HOME FOR THOSE SEEKING PEACE</p>
+            <div class="headingButtons">
+              <a href="{{ url('/shivalayayttc') }}"><button class="btn btn-outline-dark btnCustOutline">COURSES</button></a>
+              <a href="{{ url('/details') }}"><button class="btn btn-outline-dark btnCustOutline">BOOK NOW</button></a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    </div>
+</section>
+
+<section class="mb-5">
+  <div class="secondDiv">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 p-md-5 second-div-position">
+        <div class="secondDivContent my-md-5 px-md-5">
+          <h1>LEARN YOGA AT WORLD'S MOST BEAUTIFUL PLACE</h1>
+            <p class="px-md-3 w-100">An oasis for spirituality and a home for those seeking peace, Shivalaya Yoga Ashram is located on a hilltop overlooking Begnas Lake. We are a product of our environment. Our environment shapes us up. As per the Yogic Culture, yoga is taught and practiced around the lakes, rivers and mountains. Living close to the mountains and forests calms the mind and recharges your energies.</p>
+            <a href="{{ url('/contact-us') }}"><button class="btn btn-lg btnCust">TALK TO US</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section>
+        <div class="container">
+            <h2 class="text-center pb-4">YOGA ALLIANCE CERTIFICATIONS</h2>
+            <div class="row text-md-center justify-content-center">
+                <div class="col-lg-6">
+                    <p class="lead" style="font-weight:500;">
+                            All Courses offered are accredited by Yoga Alliance.
+                    </p>
+                    <p>Teachers can register as a RYT 200, RYT 300, and RYT 500, if they successfully complete our 200-hour, 300-hour 500-hour Yoga Teacher Training program at our Yoga Alliance registered school (RYS).</p>
+                </div>
+                <div class="col-6 col-md-2 ">
+                    <div class="p-3 p-md-0">
+                        <img src="{{ url('content/img/RYT-200.jpg')}}" alt="Yoga Alliance RYT 200" width="100%">
+                    </div>
+                </div>
+                <div class="col-6 col-md-2 ">
+                    <div class="p-3 p-md-0">
+                      <img src="{{ url('content/img/RYT-500.jpg')}}" alt="Yoga Alliance RYT 500" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="mb-3 mt-5">
+  <div class="container">
+    <h1 class="text-center mb-5">POPULAR YOGA COURSES</h1>
+    <div class="row">
+      <div class="col-md-6 col-lg-3">
+        <div class="popular-courses">
+          <a href="{{ url('/ryt-200-hour-yoga-teacher-training') }}">
+          <div class="popular-img">
+            <img src="{{ url('content/img/ytt200.png')}}" alt="200 Hour Yoga Teacher Training">
+            <div class="overlay">
+              <b class="icon" title="User Profile">
+                <p>$ 1200</p>
+              </b>
+            </div>
+          </div>
+          </a>
+          <p class="underlinePopular pt-2">200 HOURS YTT</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="popular-courses">
+          <a href="{{ url('/ryt-300-hour-yoga-teacher-training') }}">
+          <div class="popular-img">
+            <img src="{{ url('content/img/yogi-aman-naughan.jpg')}}" alt="300 Hours Yoga Teacher Training">
+            <div class="overlay">
+              <b class="icon" title="User Profile">
+                <p>$ 1400</p>
+              </b>
+            </div>          
+          </div>
+        </a>
+          <p class="underlinePopular pt-2">300 HOURS YTT</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="popular-courses">
+          <a href="{{ url('/ryt-500-hour-yoga-teacher-training') }}">
+          <div class="popular-img">
+            <img src="{{ url('content/img/ytt500.jpg')}}" alt="500 Hour Yoga Teacher Training">
+            <div class="overlay">
+              <b class="icon" title="User Profile">
+                <p>$ 2800</p>
+              </b>
+            </div>
+          </div>
+        </a>
+          <p class="underlinePopular pt-2">500 HOURS YTT</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="popular-courses">
+          <a href="{{ url('/200-hour-tantra-yoga-teacher-training') }}">
+          <div class="popular-img">
+            <img src="{{ url('content/img/tantra200.jpg')}}" alt="Tantra Yoga Teacher Training">
+            <div class="overlay">
+              <b class="icon" title="User Profile">
+                <p>$ 1500</p>
+              </b>
+            </div>
+          </div>
+        </a>
+          <p class="underlinePopular pt-2">200 HOURS TANTRA YTT</p>
+        </div>
+      </div>
+    </div>
+  </div>  
+</section>
+
+<section class="mb-3 table-bg pt-2">
+  <h1 class="text-center my-3">DATES TO REMEMBER</h1>
+  <div class="container d-flex flex-column">
+    <ul class="nav nav-tabs navTabCust">
+      <li class="nav-item">
+        <a href="#ytt200" data-toggle="tab" class="nav-link active">200 YTTC</a></li>
+      <li class="nav-item">
+        <a href="#ytt300" data-toggle="tab" class="nav-link">300 YTTC</a></li>
+      <li class="nav-item">
+        <a href="#ytt500" data-toggle="tab" class="nav-link">500 YTTC</a></li>
+      <li class="nav-item">
+        <a href="#tantra200" data-toggle="tab" class="nav-link">200 TANTRA</a></li>
+    </ul>
+
+  <div class="tab-content">
+    <div id="ytt200" class="container tab-pane active">
+      <div class="table-responsive">
+      <table class="table">
+        <tr class="table-header">
+          <td>FROM</td>
+          <td>TO</td>
+          <td>PRIVATE ROOM</td>
+          <td>SHARED ROOM(2)</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11 MAR</td>
+          <td>7 APR</td>
+          <td>USD 1400</td>
+          <td>USD 1200</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+        <tr>
+          <td>13 APR</td>
+          <td>10 MAY</td>
+          <td>USD 1400</td>
+          <td>USD 1200</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+         <tr>
+          <td>22 JUN</td>
+          <td>19 JULY</td>
+          <td>USD 1400</td>
+          <td>USD 1200</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+        <tr>
+         <td>25 JULY</td>
+          <td>21 AUG</td>
+          <td>USD 1400</td>
+          <td>USD 1200</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+        <tr>
+         <td>27 AUG</td>
+          <td>23 SEPT</td>
+          <td>USD 1400</td>
+          <td>USD 1200</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+        <tr>
+         <td>4 NOV</td>
+          <td>1 DEC</td>
+          <td>USD 1400</td>
+          <td>USD 1200</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+        <tr>
+         <td>3 DEC</td>
+          <td>30 DEC</td>
+          <td>USD 1400</td>
+          <td>USD 1200</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+      </table>
+    </div>
+    </div>
+    <div id="ytt300" class="container tab-pane fade">
+      <div class="table-responsive">
+      <table class="table">
+        <tr class="table-header">
+          <td>FROM</td>
+          <td>TO</td>
+          <td>PRIVATE ROOM</td>
+          <td>SHARED ROOM(2)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>18 MAY</td>
+          <td>17 JUN</td>
+          <td>USD 1600</td>
+          <td>USD 1400</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+        <tr>
+          <td>29 SEPT</td>
+          <td>29 OCT</td>
+          <td>USD 1600</td>
+          <td>USD 1400</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+      </table>
+    </div>
+    </div>
+    <div id="ytt500" class="container tab-pane fade">
+        <div class="table-responsive">
+       <table class="table">
+        <tr class="table-header">
+          <td>FROM</td>
+          <td>TO</td>
+          <td>PRIVATE ROOM</td>
+          <td>SHARED ROOM(2)</td>
+          <td></td>
+        </tr>
+        <tr>
+         <td>13 APR</td>
+          <td>11 JUN</td>
+          <td>USD 3000</td>
+          <td>USD 2800</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+        <tr>
+         <td>27 AUG</td>
+          <td>29 OCT</td>
+          <td>USD 3000</td>
+          <td>USD 2800</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+      </table>
+      </div>
+    </div>
+    <div id="tantra200" class="container tab-pane fade">
+        <div class="table-responsive">
+       <table class="table">
+        <tr class="table-header">
+          <td>FROM</td>
+          <td>TO</td>
+          <td>PRIVATE ROOM</td>
+          <td>SHARED ROOM(2)</td>
+          <td></td>
+        </tr>
+         <tr>
+          <td>10 DEC</td>
+          <td>15 DEC</td>
+          <td>USD 1600</td>
+          <td>USD 1500</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+        <tr>
+         <td>10 DEC</td>
+          <td>15 DEC</td>
+          <td>USD 1600</td>
+          <td>USD 1500</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+         <tr>
+          <td>10 DEC</td>
+          <td>15 DEC</td>
+          <td>USD 1600</td>
+          <td>USD 1500</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+        <tr>
+         <td>10 DEC</td>
+          <td>15 DEC</td>
+          <td>USD 1600</td>
+          <td>USD 1500</td>
+          <td><a href="{{ url('/details') }}"><button class="btn btn-success btn-sm">ENQUIRY NOW</button></a></td>
+          <!--<td><a href="https://www.yogi360.com/shivalaya-yoga-ashram-reservation"><button class="btn btn-success btn-sm">BOOK NOW</button></a></td>-->
+        </tr>
+      </table>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<section class="mb-3">
+  <div class="container">
+    <h1 class="text-center mb-5">MEET THE YOGA TEACHERS</h1>
+    <div class="row justify-content-center">
+    <div class="col-md-3">
+        <div class="meet-teachers">
+          <div class="meet-teachers-img"><a href="https://www.shivalayayogaashram.com.np/teachers-bio"><img src="{{ url('content/img/gopika.jpg')}}" alt="Yoga Teacher Nepal"></a></div>
+          <p class="meet-color pt-2">YOGINI GOPIKA</p>
+        </div>
+      </div>
+    <div class="col-md-3">
+        <div class="meet-teachers">
+          <div class="meet-teachers-img"><a href="https://www.shivalayayogaashram.com.np/teachers-bio"><img src="{{ url('content/img/yogi-aman.jpg')}}" alt="Yoga Trainer"></a></div>
+          <p class="meet-color pt-2">YOGI AMAN NAUGHAN</p>
+          <small class="meet-color">RISHIKESH</small>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="meet-teachers">
+          <div class="meet-teachers-img"><a href="https://www.shivalayayogaashram.com.np/teachers-bio"><img src="{{ url('content/img/ratheesh-kochukatil.jpg')}}" alt="Yoga Trainer Nepal"></a></div>
+          <p class="meet-color pt-2">RATHEESH KOCHUKATIL</p>
+          <small class="meet-color">KERALA</small>
+        </div>  
+      </div>
+      <div class="col-md-3">
+        <div class="meet-teachers">
+          <div class="meet-teachers-img"><a href="https://www.shivalayayogaashram.com.np/teachers-bio"><img src="{{ url('content/img/yogi-rishiraj-lamsal.jpg')}}" alt="Yogi Trainer"></a></div>
+          <p class="meet-color pt-2">RISHI RAJ LAMSAL</p>
+          <small class="meet-color">RISHIKESH</small>
+        </div>
+      </div>    
+    </div>
+  </div>  
+</section>
+
+
+<section class="pt-4 pb-5 testibg">
+  <div class="clientsDiv container">
+    <h1 class="text-center mb-5">WHAT OUR HAPPY CLIENTS SAY</h1>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div class="container">
+    <div class="row justify-content-center">
+            <div class="col-md-2 p-5 p-md-0">
+                <img src="{{ url('content/img/avatar.png')}}" alt="Shivalaya Review" class="testi_image">
+            </div>
+            <div class="col-md-3 p-0 d-flex justify-content-center flex-column text-center">
+                <h4>HENRY RICHAD</h4>
+                <p class="purple"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></p>
+            </div>
+            <div class="col-md-5 d-flex align-items-center testi_para">
+                <img src="{{ url('content/img/inverted_icon.png')}}" alt="Testimonial" class="testi_icon">
+                <h6 class="m-0  p-3">
+                        Me and my partner spent couple of days here at Shivalaya , practicing some yoga and meditation. It was a wonderful experience here. I try to visit this place every time I visit Nepal.
+                </h6>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="carousel-item">
+    <div class="container">
+    <div class="row justify-content-center">
+            <div class="col-md-2 p-5 p-md-0">
+                <img src="{{ url('content/img/avatar.png')}}" alt="Shivalaya Reviews" class="testi_image">
+            </div>
+            <div class="col-md-3 p-0 d-flex justify-content-center flex-column text-center">
+                <h4>GARY RYAN</h4>
+                <p class="purple"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></p>
+            </div>
+            <div class="col-md-5 d-flex align-items-center testi_para">
+                <img src="{{ url('content/img/inverted_icon.png')}}" alt="Testimonial2" class="testi_icon">
+                <h6 class="m-0  p-3">
+                It was a life time experience for me travelling all the way from Ukraine to the kingdom of Himalayas, and learn the different disciplines of Yoga. I am happy to say that I am certified for taking 200 yttc training form Shivalaya Yoga Ashram.
+                </h6>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="carousel-item">
+    <div class="container">
+    <div class="row justify-content-center">
+            <div class="col-md-2 p-5 p-md-0">
+                <img src="{{ url('content/img/avatar.png')}}" alt="Yoga Review" class="testi_image">
+            </div>
+            <div class="col-md-3 p-0 d-flex justify-content-center flex-column text-center">
+                <h4>STUART BINNY</h4>
+                <p class="purple"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></p>
+            </div>
+            <div class="col-md-5 d-flex align-items-center testi_para">
+                <img src="{{ url('content/img/inverted_icon.png')}}" alt="Testimonial3" class="testi_icon">
+                <h6 class="m-0  p-3">
+                It was such a wonderful time here at Shivalaya Yoga Ashram. I feel so light and energetic after spending time in this beautiful place. I recommend every one to spend at least a couple of week here.
+                </h6>
+            </div>
+        </div>
+    </div>
+    </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="custPrevicon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="custNexticon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+  </div>
+</div>
+</section>
+
+<!-- Image sliding section -->
+<section>
+  <div class="container-fluid mt-5 mb-5">
+    <h1 class="text-center mb-5">ALL YOGA GALLERY</h1>
+  <div class="prod-slider-container">
+        <div class="inner-container">
+        </div>
+
+        <div class="owl-carousel">
+            <div class="myitem m-2">
+                <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery/gallery-19-6-4-2.jpg')}}" alt="yoga training" style="width:100%"></a>
+            </div>
+            <div class="myitem m-2">
+                <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery/gallery-19-6-4-1.jpg')}}" alt="yoga training" style="width:100%"></a>
+            </div>
+            <div class="myitem m-2">
+                <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery/gallery-19-6-4.jpg')}}" alt="yoga training" style="width:100%"></a>
+            </div>
+
+            <div class="myitem m-2">
+                <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery/group.jpg')}}" alt="200 hour yoga teacher training" style="width:100%"></a>
+            </div>
+            <!--<div class="myitem m-2">-->
+            <!--    <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery/maps.jpg')}}" alt="200 hour yoga teacher training" style="width:100%"></a>-->
+            <!--</div>-->
+            <div class="myitem m-2">
+                <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery/new2final.jpg')}}" alt="200 hour yoga teacher training" style="width:100%"></a>
+            </div>
+            <div class="myitem m-2">
+                <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery_image2.jpg')}}" alt="best yoga teacher training india" style="width:100%"></a>
+            </div>
+            <div class="myitem m-2">
+                <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery_image3.jpg')}}" alt="yoga teacher training in india" style="width:100%"></a>
+            </div>
+            <div class="myitem m-2">
+                <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery_image4.jpg')}}" alt="yoga teacher training program" style="width:100%"></a>
+            </div>
+            <div class="myitem m-2">
+                <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery_image5.jpg')}}" alt="yoga retreat pokhara" style="width:100%"></a>
+            </div>
+            <div class="myitem m-2">
+                <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery_image6.jpg')}}" alt="nepal yoga home" style="width:100%"></a>
+            </div>
+            <div class="myitem m-2">
+                <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery_image7.jpg')}}" alt="yoga pokhara" style="width:100%"></a>
+            </div>
+            <div class="myitem m-2">
+                <a href="{{ url('/gallery') }}"><img src="{{ url('content/img/gallery_image8.jpg')}}" alt="purna yoga retreat" style="width:100%"></a>
+            </div>
+        </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="footerCust pt-md-5 pb-md-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+            <div class="row mt-3 mt-md-0">
+                <div class="col-4 footer-rys">
+                    <img src="{{ url('content/img/RYS-200.jpg')}}" alt="yoga alliance certificate rys-200">
+                </div>
+                <div class="col-4 footer-rys">
+                    <img src="{{ url('content/img/RYS-300.jpg')}}" alt="yoga alliance certificate rys-300">
+                </div>
+                <div class="col-4 footer-rys">
+                    <img src="{{ url('content/img/RYS-500.jpg')}}" alt="yoga alliance certificate rys-500">
+                </div>
+            </div>
+          <div class="emailsubscribe">
+              <div id = "sub">
+            <label style="color: black;">{{ Session::get('success') }}</label>
+            <label style="color: black;">{{ Session::get('failure') }}</label>
+              </div>
+            
+            <h6 class="text-center">JOIN OUR MAILING LIST</h6>
+            <div class="input-group-append mb-3">
+              <form action="{{ url('/emails/subscribe') }}" accept-charset="UTF-8" method="POST" class="d-flex">
+                {{ csrf_field() }}
+              <input type="email" name="email" id="email" class="form-control myForm" placeholder="Your Email"  data-validation="email" required="required">
+              <button type="submit" class="btn footerbtn">Subscribe</button>
+              </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4  d-flex align-items-center justify-content-center">
+        <div class="text-center">
+          <img src="{{ url('content/img/footerlogoo.png')}}" alt="free yoga in kathmandu">
+        </div>
+      </div>
+      <div class="col-md-4">
+          <div class="social-icons">
+            <h6 class="text-center">STAY CONNECTED</h6>
+                <p style="color:white"><i class="fa fa-map-marker" aria-hidden="true"></i> Begnas Canal Rd, Lekhnath 33700, Nepal</p>
+                <p style="color:white"><i class="fa fa-mobile" aria-hidden="true"></i> +977 9846265340</p>
+                
+                <p style="color:white"><i class="fa fa-envelope" aria-hidden="true"></i> shivalayayogaschool975@gmail.com</p>
+            <ul class="d-flex justify-content-between pt-2 p-0">
+              <li><a href="https://www.facebook.com/shivalayayogaaashram/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.instagram.com/shivalayayogaaashram/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a href="https://twitter.com/ShivalayaAshram" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="{{ url('/blog')}} "><i class="fa fa-newspaper-o" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCT_LB6XE7y2mlbp16Z-BZHg" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></li> 
+            </ul>
+          </div>
+        </div>
+      <div class="container footer-menu mt-5">
+        <ul class="col-md-10">
+          <li><a href="{{ url('about-us')}} ">ABOUT US</a></li>
+          <li><a href="{{ url('/shivalayayttc') }}">COURSES</a></li>
+          <li><a href="{{ url('/gallery') }}">GALLERY</a></li>
+          <li><a href="{{ ('/blog') }}">BLOGS</a></li>
+          <li><a href="{{ url('/location') }}">LOCATION</a></li>
+          <li><a href="{{ url('/accommodation') }}">ACCOMMODATION</a></li>
+        </ul>
+      
+        <p class="text-center copyright-para">Copyright &#169; 2019 Shivalaya. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{{ url('content/bootstrap/jquery-3.3.1.slim.min.js')}}"></script>
+    <script src="{{ url('content/bootstrap/popper.min.js')}}"></script>
+    <script src="{{ url('content/bootstrap/bootstrap.min.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/g/jquery@2.2.4,jquery.owlcarousel@1.31"></script>
+    <script src="{{ url('content/js/commonscript.js')}}"></script>
+    <script>
+      var overlay = document.getElementById("spinoverlay");
+      window.addEventListener('load',function(){
+      overlay.style.display = 'none';
+      });
+
+      // Image slider
+      $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+          items: 4,
+          autoPlay: 2000,
+          itemsDesktop: [1199, 4],
+          itemsDesktopSmall: [979, 3],
+        });
+      });
+</script>
+ </body>
+</html>

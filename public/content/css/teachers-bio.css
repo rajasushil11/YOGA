@@ -1,0 +1,30 @@
+.teachers-head{
+	margin-bottom: 0;
+	text-align: center;
+	font-size:1.5rem;
+	font-weight: 600;
+}
+.teachers-small{
+	display: block;
+	text-align: center;
+	font-size:.9rem;
+}
+.meet-color{
+	background:linear-gradient(to right, #1a0b8c 0%, #fa50cb 100%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+.img-techers{
+    float:left;
+    margin:.8rem;
+    max-width:300px;
+}
+.teachers-info{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.teachers-info p{
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:10px;
+}

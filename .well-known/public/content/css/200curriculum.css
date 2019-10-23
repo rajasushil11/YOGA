@@ -1,0 +1,67 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.card-header{
+	background:#fff;
+}
+.card-header a{
+	text-transform:uppercase; 
+	font-weight:600;
+	color:purple;
+}
+.card-header a.card-link.collapsed:after{
+	content: "\f078";
+    font-family: fontawesome;
+    font-size: 25px;
+    color: grey;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.card-header a.card-link:after {
+    content: "\f077";
+    font-family: fontawesome;
+    font-size: 25px;
+    color: grey;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.banner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.banner img{
+	width:100%;
+}
+.text-on-banner{
+	position: absolute;
+}
+.text-on-img h3{
+	color:#fff;
+}
+h3{
+	text-transform: uppercase;
+	text-align: center;
+}
+.btnCust{
+	color:#fff;
+	background-image: linear-gradient(to bottom left,#1a0b8c, #fa50cb);
+	border:none;
+	border-radius:.5rem;
+	padding:.5rem;
+}
+
+
+
+
+
+

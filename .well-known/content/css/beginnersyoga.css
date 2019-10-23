@@ -1,0 +1,68 @@
+.beginners-yoga-list ul, .beginners-list ul{
+	list-style-type: none;
+	padding-left:0;
+}
+.beginners-yoga-list ul li:before{
+	content: "\f00c";
+    font-family: FontAwesome;
+    color: purple;
+    padding-right: .5rem;
+}
+.beginners-list ul li:before{
+	content: "\f00c";
+    font-family: FontAwesome;
+    color: purple;
+    padding-right: .5rem;
+}
+.beginners-list ul li{
+	margin-bottom: 1rem;
+}
+.beginners-div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.banner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.banner img{
+	width:100%;
+}
+.text-on-banner{
+	position: absolute;
+}
+.text-on-img h3{
+	color:#fff;
+}
+.img-beginners img{
+	width:100%;
+}
+h3{
+	text-align: center;
+	text-transform: uppercase;
+}
+small{
+	text-align: center;
+}
+.grp-buttons{
+	margin-left:2rem;
+	margin-right:2rem;
+}
+.grp-buttons button{
+	margin-bottom:2rem;
+	border: 2px solid transparent;
+    border-image: linear-gradient(to bottom left,#1a0b8c, #fa50cb);
+    border-image-slice: 1;
+    border-radius: 0;
+    background: linear-gradient(to right, #1a0b8c 0%, #fa50cb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width:100%;
+}
+.retreat-options h3{
+	margin-bottom: 2rem;
+}
