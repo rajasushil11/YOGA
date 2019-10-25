@@ -55,7 +55,7 @@
   </head>
   <body>
         <nav class="navbar navbar-light bg-white navbar-expand-lg sticky-top p-2">
-      <a class="navbar-brand p-0" href="{{ url('/') }}"><img src="{{ url('content/img/logo.png')}}" alt="Shivalaya Yoga Ashram"></a>
+      <a class="navbar-brand p-0" href="{{ url('/') }}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shivanavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -246,7 +246,7 @@
       </div>
       <div class="col-md-4  d-flex align-items-center justify-content-center">
         <div class="text-center">
-          <img src="{{ url('content/img/footerlogoo.png')}}" alt="free yoga in kathmandu">
+          
         </div>
       </div>
       <div class="col-md-4 d-md-flex justify-content-center">
@@ -275,7 +275,7 @@
           <li><a href="{{ url('/accommodation') }}">ACCOMMODATION</a></li>
         </ul>
       
-        <p class="text-center copyright-para">Copyright &#169; 2019 Shivalaya. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
+        <p class="text-center copyright-para">Copyright &#169; 2019 Nepal Spiritual. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
       </div>
     </div>
   </div>

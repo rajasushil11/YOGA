@@ -44,8 +44,8 @@
     <!--Font-->
     <link rel="stylesheet" href="{{ url('content/css/font.css')}}">
     
-  <title>300 Hour Ashtanga Yoga Teacher Training Curriculum | Shivalaya </title>
-   <meta name="description" content="Shivalaya Yoga Ashram is a Yoga Alliance USA RYS certified School. Book and Explore their curriculum of 300 Hours Ashtanga yoga teacher training at the second largest city(Pokhara) of Nepal." />
+  <title>300 Hour Ashtanga Yoga Teacher Training Curriculum | Nepal Spiritual </title>
+   <meta name="description" content="Nepal Spiritual is a Yoga Alliance USA RYS certified School. Book and Explore their curriculum of 300 Hours Ashtanga yoga teacher training at the second largest city(Pokhara) of Nepal." />
     <meta name="keywords" content="300 hours Ashtanga yoga teacher training curriculum, 300 Hour Ashtanga Yoga Teacher Training"/>
     <meta name="topic" content="YOGA PHILOSOPHY , TEACHING METHODOLOGY, Intro to Ayurveda"/>
     <meta name="abstract" content="Ashtanga yoga teacher training, Vinyasa yoga teacher training, Ashtanga vinyasa yoga teacher training, Ashtanga yoga teacher training in nepal, 300- hours ashtanga yoga teacher training"/>
@@ -53,7 +53,7 @@
   </head>
   <body>
         <nav class="navbar navbar-light bg-white navbar-expand-lg sticky-top p-2">
-      <a class="navbar-brand p-0" href="{{ url('/') }}"><img src="{{ url('content/img/logo.png')}}" alt="Shivalaya Yoga Ashram"></a>
+      <a class="navbar-brand p-0" href="{{ url('/') }}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shivanavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -494,7 +494,7 @@
       </div>
       <div class="col-md-4  d-flex align-items-center justify-content-center">
         <div class="text-center">
-          <img src="{{ url('content/img/footerlogoo.png')}}" alt="free yoga in kathmandu">
+          
         </div>
       </div>
       <div class="col-md-4 d-md-flex justify-content-center">
@@ -523,7 +523,7 @@
           <li><a href="{{ url('/accommodation') }}">ACCOMMODATION</a></li>
         </ul>
       
-        <p class="text-center copyright-para">Copyright &#169; 2019 Shivalaya. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
+        <p class="text-center copyright-para">Copyright &#169; 2019 Nepal Spiritual. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
       </div>
     </div>
   </div>

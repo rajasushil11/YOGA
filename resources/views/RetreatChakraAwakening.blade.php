@@ -47,7 +47,7 @@
   <!--Font-->
     <link rel="stylesheet" href="{{ url('content/css/font.css')}}">
 
-  <title>Chakra Awakening Retreat | Shivalaya</title>
+  <title>Chakra Awakening Retreat | Nepal Spiritual</title>
     <meta name="description" content="Book 7 Days Chakra Awakening Retreat in Nepal. Chakras are our energy centers that perceive, transform and distribute subtle energy throughout the body." />
     <meta name="keywords" content="7 Days Chakra Awakening Retreat in Nepal, Retreats for 7 days in nepal, Retreats in Nepal"/>
     <meta name="topic" content="7 Days Chakra Awakening Retreat, Spiritual retreats"/>
@@ -59,7 +59,7 @@
 <body>
   <!-- header and navbar -->
     <nav class="navbar navbar-light bg-white navbar-expand-lg sticky-top p-2">
-      <a class="navbar-brand p-0" href="{{ url('/') }}"><img src="{{ url('content/img/logo.png')}}" alt="Shivalaya Yoga Ashram"></a>
+      <a class="navbar-brand p-0" href="{{ url('/') }}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shivanavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -441,7 +441,7 @@ th chakras. Make this step for unlocking your potential together with us!</p>
           <div class="col-md-11">
             <div class="about-1 py-3 py-md-0">
             <h5>ABOUT ORGANIZER</h5>
-            <p><img src="{{ url('content/img/favicon.png') }}" alt='logo' class="mr-2">SHIVALAYA YOGA ASHRAM</p>
+            <p><img src="{{ url('content/img/favicon.png') }}" alt='logo' class="mr-2">Nepal Spiritual</p>
             <p class="text-justify">We offer you well-furnished guest rooms with attached bathrooms and our restaurant serves a wide selection of healthy yet delightful delicacies, available throughout the day. We are situated at only 5 minutes walking distance from the lake, where you can experience a refreshing dip in the clean water. We are open to welcome groups as well as individual travellers.</p>
             </div>
             <!--<h5>REVIEWS</h5>-->
@@ -585,7 +585,7 @@ th chakras. Make this step for unlocking your potential together with us!</p>
       </div>
       <div class="col-md-4  d-flex align-items-center justify-content-center">
         <div class="text-center">
-          <img src="{{ url('content/img/footerlogoo.png')}}" alt="free yoga in kathmandu">
+          
         </div>
       </div>
       <div class="col-md-4 d-md-flex justify-content-center">
@@ -614,7 +614,7 @@ th chakras. Make this step for unlocking your potential together with us!</p>
           <li><a href="{{ url('/accommodation') }}">ACCOMMODATION</a></li>
         </ul>
       
-        <p class="text-center copyright-para">Copyright &#169; 2019 Shivalaya. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
+        <p class="text-center copyright-para">Copyright &#169; 2019 Nepal Spiritual. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
       </div>
     </div>
   </div>

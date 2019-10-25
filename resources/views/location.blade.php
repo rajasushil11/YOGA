@@ -45,8 +45,8 @@
     <link rel="stylesheet" href="{{ url('content/css/gallery.css') }}">
     <link rel="stylesheet" href="{{ url('content/css/font.css')}}">
 
-  <title>Shivalaya Yoga Teacher Training Location in Himalayas</title>
-   <meta name="description" content="Shivalaya Yoga Ashram provides 200 hrs, 300 hrs, 500 hrs yoga teacher training nearby the beautiful foothills of Himalayas at Pokhara, Nepal" />
+  <title>Nepal Spiritual Teacher Training Location in Himalayas</title>
+   <meta name="description" content="Nepal Spiritual provides 200 hrs, 300 hrs, 500 hrs yoga teacher training nearby the beautiful foothills of Himalayas at Pokhara, Nepal" />
     <meta name="keywords" content="yoga teacher training in Himalayas"/>
     <meta name="topic" content="Begnas Lake, Pokhara, Nepal, Himalayas "/>
     <meta name="abstract" content="200 Hrs Yoga TTC, 300 Hrs Yoga TTC, 500 Hrs Yoga TTC,  200 hours yoga courses, 300 hour yoga courses, 500 hour yoga courses"/>
@@ -56,7 +56,7 @@
 <body>
       <!-- header and navbar -->
     <nav class="navbar navbar-light bg-white navbar-expand-lg sticky-top p-2">
-      <a class="navbar-brand p-0" href="{{ url('/') }}"><img src="{{ url('content/img/logo.png')}}" alt="Shivalaya Yoga Ashram"></a>
+      <a class="navbar-brand p-0" href="{{ url('/') }}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shivanavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -129,7 +129,7 @@
     <div class="row">
       <div class="">
         <div class="location-content px-3 text-justify">
-          <p>Shivalaya Yoga Ashram, an abode of spiritual experiences, is situated on a hilltop affording a spectacular view of Begnas Lake in Pokhara, Nepal. The ashram is nestled in the lap of the Himalayas among lush forests and mountains filled with a diverse range of floras and faunas. Pokhara in Nepal is one of the most sought-after yoga destinations, where a great number of yogis, seekers, and tourists visit to experience nature, peace, and wisdom. Besides the picturesque scenery covering the breath-taking mountains, lush forests, and sparkling water bodies, the village is also very clean, peaceful and above all, far away from the hustle. A dip in the fresh lake is sure to make one feel refreshed, revitalized, and reenergized. Moreover, the mountains and forests around bring nature strikingly close to the village.</p>
+          <p>Nepal Spiritual, an abode of spiritual experiences, is situated on a hilltop affording a spectacular view of Begnas Lake in Pokhara, Nepal. The ashram is nestled in the lap of the Himalayas among lush forests and mountains filled with a diverse range of floras and faunas. Pokhara in Nepal is one of the most sought-after yoga destinations, where a great number of yogis, seekers, and tourists visit to experience nature, peace, and wisdom. Besides the picturesque scenery covering the breath-taking mountains, lush forests, and sparkling water bodies, the village is also very clean, peaceful and above all, far away from the hustle. A dip in the fresh lake is sure to make one feel refreshed, revitalized, and reenergized. Moreover, the mountains and forests around bring nature strikingly close to the village.</p>
           <p>Nepal, in whole, is known for its heavenly landscape and is the home of the mighty and magnificent Himalayas. The place, for centuries, has been strongly associated with the ancient practice of yoga. It is believed that many a sage and yogi practiced and developed the age-old science while dwelling in the serene mountains of Nepal. Several yogic rituals and traditions including Tantra, took form in this very own country, which all are now being practiced all over the globe.</p>
         </div>
         <div class="location-content px-3 text-justify">
@@ -448,9 +448,7 @@
         </div>
       </div>
       <div class="col-md-4  d-flex align-items-center justify-content-center">
-        <div class="text-center">
-          <img src="{{ url('content/img/footerlogoo.png')}}" alt="free yoga in kathmandu">
-        </div>
+        
       </div>
       <div class="col-md-4 d-md-flex justify-content-center">
           <div class="social-icons">
@@ -478,7 +476,7 @@
           <li><a href="{{ url('/accommodation') }}">ACCOMMODATION</a></li>
         </ul>
       
-        <p class="text-center copyright-para">Copyright &#169; 2019 Shivalaya. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
+        <p class="text-center copyright-para">Copyright &#169; 2019 Nepal Spiritual. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
       </div>
     </div>
   </div>

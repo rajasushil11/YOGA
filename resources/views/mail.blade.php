@@ -7,7 +7,7 @@
 	
 </head>
 <body>
-<h1>Hi, Shivalaya Admin</h1>
+<h1>Hi, Nepal Spiritual Admin</h1>
 <div class="row">
 	<div class="col-md-12">
 		<div class="col-md-6">

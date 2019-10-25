@@ -44,7 +44,7 @@
     <!--Font-->
     <link rel="stylesheet" href="{{ url('content/css/font.css')}}">
     
-  <title>200 Hour Hatha Yoga Teacher Training Curriculum | Shivalaya Yoga Ashram   </title>
+  <title>200 Hour Hatha Yoga Teacher Training Curriculum | Nepal Spiritual   </title>
    <meta name="description" content="Curriculum for Residential 200- Hours Hatha Yoga Teacher Training in Pokhara, Nepal at Shivalaya Yoga Ashram. An RYS 200hrs, 300hrs and 500hrs YTTC certified by Yoga Alliance. " />
     <meta name="keywords" content="200 Hour Hatha Yoga Teacher Training Curriculum"/>
     <meta name="topic" content="HATHA YOGA -BEGINNERS , PRANAYAMA, YOGIC ANATOMY"/>
@@ -53,7 +53,7 @@
   </head>
   <body>
         <nav class="navbar navbar-light bg-white navbar-expand-lg sticky-top p-2">
-      <a class="navbar-brand p-0" href="{{ url('/') }}"><img src="{{ url('content/img/logo.png')}}" alt="Shivalaya Yoga Ashram"></a>
+      <a class="navbar-brand p-0" href="{{ url('/') }}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shivanavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -554,7 +554,7 @@
           <li><a href="{{ url('/accommodation') }}">ACCOMMODATION</a></li>
         </ul>
       
-        <p class="text-center copyright-para">Copyright &#169; 2019 Shivalaya. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
+        <p class="text-center copyright-para">Copyright &#169; 2019 Nepal Spiritual. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
       </div>
     </div>
   </div>

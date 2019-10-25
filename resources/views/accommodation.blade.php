@@ -28,8 +28,8 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Our Single, Shared Room Accommodation - Shivalaya Yoga Ashram</title>
-     <meta name="description" content="At Shivalaya Yoga Ashram, we offer 3 best different kinds of accommodation. All our rooms overlook the mountains and lake, offering a spectacular view of the scenery around." />
+    <title>Our Single, Shared Room Accommodation - Nepal Spiritual</title>
+     <meta name="description" content="At Nepal Spiritual, we offer 3 best different kinds of accommodation. All our rooms overlook the mountains and lake, offering a spectacular view of the scenery around." />
     <meta name="keywords" content="Best Accommodation, Accommodation for yoga teacher training"/>
     <meta name="topic" content="kinds of accommodation, rooms"/>
     <meta name="abstract" content="residental yoga with all facilities food,Bed,various types of extra things , 200 , 300 and 500 ytt best training with accomodation center, yoga accommodation"/>
@@ -116,7 +116,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h3>ACCOMODATION</h3>
-                <p>At Shivalaya Yoga Ashram, we offer 3 different kinds of accommodation. All our rooms overlook the mountains and lake, offering a spectacular view of the scenery around. Our three room options include:</p>
+                <p>At Nepal Spiritual, we offer 3 different kinds of accommodation. All our rooms overlook the mountains and lake, offering a spectacular view of the scenery around. Our three room options include:</p>
             </div>
         </div>
         <div class="row pt-5">
@@ -241,8 +241,7 @@
       </div>
       <div class="col-md-4  d-flex align-items-center justify-content-center">
         <div class="text-center">
-          <img src="{{ url('content/img/footerlogoo.png')}}" alt="free yoga in kathmandu">
-        </div>
+         
       </div>
       <div class="col-md-4 d-md-flex justify-content-center">
           <div class="social-icons">
@@ -270,7 +269,7 @@
           <li><a href="{{ url('/accommodation') }}">ACCOMMODATION</a></li>
         </ul>
       
-        <p class="text-center copyright-para">Copyright &#169; 2019 Shivalaya. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
+        <p class="text-center copyright-para">Copyright &#169; 2019 Nepal Spiritual. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
       </div>
     </div>
   </div>

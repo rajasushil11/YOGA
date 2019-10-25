@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="{{ url('content/css/footer.css') }}">
     <link rel="stylesheet" href="{{ url('content/css/beginnersyoga.css') }}">
     
-    <title>Features Shivalaya Yoga</title>
+    <title>Features Nepal Spiritual</title>
      <meta name="description" content="Yog Amritam conducts 200 hour Yoga teacher training courses, Yoga for beginners (100 hour Yoga Course) and Yoga Retreats sessions in Nepal affiliated with Yoga Alliance, USA." />
     <meta name="keywords" content="100 Hour Yoga Teacher Training in  Nepal India ,Yoga for Beginners,100 hours Yoga teacher training course in  Nepal,Yoga  Nepal | 100 Hour Yoga Teacher Training"/>
     <meta name="topic" content="Yoga Teacher Training in  Nepal ,India : Yoga for Beginners"/>
@@ -231,7 +231,7 @@
       </div>
       <div class="col-md-4  d-flex align-items-center justify-content-center">
         <div class="text-center">
-          <img src="{{ url('content/img/footerlogoo.png')}}" alt="nepal yoga teacher training">
+          
         </div>
       </div>
       <div class="col-md-4">
@@ -259,7 +259,7 @@
           <li><a href="{{ url('/accommodation') }}">ACCOMMODATION</a></li>
         </ul>
       
-        <p class="text-center copyright-para">Copyright &#169; 2019 Shivalaya. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
+        <p class="text-center copyright-para">Copyright &#169; 2019 Nepal Spiritual. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
       </div>
     </div>
   </div>

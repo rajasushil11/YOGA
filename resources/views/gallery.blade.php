@@ -43,7 +43,7 @@
     <link rel="stylesheet" href="{{ url('content/css/footer.css') }}">
     <link rel="stylesheet" href="{{ url('content/css/gallery.css') }}">
     
-    <title>Yoga Teacher Training Photo Gallery - Shivalaya Yoga Ashram</title>
+    <title>Yoga Teacher Training Photo Gallery - Nepal Spiritual</title>
     <meta name="description" content="Don't just take our words for it - take a look at the experiences of our graduates and explore the photo gallery for the notable yoga teacher training at Shivalaya Yoga Ashram." />
     <meta name="keywords" content="Yoga Teacher Training Photo Gallery"/>
     <meta name="topic" content=""/>
@@ -52,7 +52,7 @@
   </head>
   <body>
         <nav class="navbar navbar-light bg-white navbar-expand-lg sticky-top p-2">
-      <a class="navbar-brand p-0" href="{{ url('/') }}"><img src="{{ url('content/img/logo.png')}}" alt="Shivalaya Yoga Ashram"></a>
+      <a class="navbar-brand p-0" href="{{ url('/') }}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shivanavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -970,7 +970,7 @@
       </div>
       <div class="col-md-4  d-flex align-items-center justify-content-center">
         <div class="text-center">
-          <img src="{{ url('content/img/footerlogoo.png')}}" alt="free yoga in kathmandu">
+          
         </div>
       </div>
       <div class="col-md-4 d-md-flex justify-content-center">
@@ -999,7 +999,7 @@
           <li><a href="{{ url('/accommodation') }}">ACCOMMODATION</a></li>
         </ul>
       
-        <p class="text-center copyright-para">Copyright &#169; 2019 Shivalaya. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
+        <p class="text-center copyright-para">Copyright &#169; 2019 Nepal Spiritual. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
       </div>
     </div>
   </div>

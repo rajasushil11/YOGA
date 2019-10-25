@@ -45,7 +45,7 @@
     <link rel="stylesheet" href="{{ url('content/css/style.css')}}">
     <link rel="stylesheet" href="{{ url('content/css/responsive.css')}}">
 
-    <title>Shivalayas- Book Exclusive Yoga Teacher Training in Nepal</title>
+    <title>Nepal Spiritual- Book Exclusive Yoga Teacher Training in Nepal</title>
      <meta name="description" content="Shivalaya Yoga Ashram offers RYT 200 hour, 300 hour and 500 hour residential multi-style yoga teacher training exclusively only for yoga enthusiast in Pokhara, Nepal." />
     <meta name="keywords" content="Yoga teacher training in Nepal"/>
     <meta name="topic" content="RYT 200, RYT 300, and RYT 500, Yoga Alliance registered school (RYS)"/>
@@ -64,7 +64,7 @@
 
       <!-- header and navbar -->
     <nav class="navbar navbar-light bg-white navbar-expand-lg sticky-top p-2">
-      <a class="navbar-brand p-0" href="{{ url('/') }}"><img src="{{ url('content/img/logo.png')}}" alt="Shivalaya Yoga Ashram"></a>
+      <a class="navbar-brand p-0" href="{{ url('/') }}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shivanavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -707,7 +707,7 @@
       </div>
       <div class="col-md-4  d-flex align-items-center justify-content-center">
         <div class="text-center">
-          <img src="{{ url('content/img/footerlogoo.png')}}" alt="free yoga in kathmandu">
+          
         </div>
       </div>
       <div class="col-md-4 d-md-flex justify-content-center">

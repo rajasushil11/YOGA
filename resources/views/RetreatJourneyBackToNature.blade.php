@@ -47,7 +47,7 @@
   <!--Font-->
     <link rel="stylesheet" href="{{ url('content/css/font.css')}}">
 
-  <title>Journey Back To Nature Retreat | Shivalaya</title>
+  <title>Journey Back To Nature Retreat | Nepal Spiritual</title>
     <meta name="description" content="Book Journey Back To Nature: 7 Days Retreat in Nepal. It is time to relax into the arms of Nature and release all stress. 
     This retreat is designed to bring your body cycles back into harmony with Nature, the way that we, as organic beings, are designed to exist.
     Align your Body with the Rhythms of Nature and Reclaim your Personal Power" />
@@ -61,7 +61,7 @@
 <body>
   <!-- header and navbar -->
     <nav class="navbar navbar-light bg-white navbar-expand-lg sticky-top p-2">
-      <a class="navbar-brand p-0" href="{{ url('/') }}"><img src="{{ url('content/img/logo.png')}}" alt="Shivalaya Yoga Ashram"></a>
+      <a class="navbar-brand p-0" href="{{ url('/') }}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shivanavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -625,7 +625,7 @@
       </div>
       <div class="col-md-4  d-flex align-items-center justify-content-center">
         <div class="text-center">
-          <img src="{{ url('content/img/footerlogoo.png')}}" alt="free yoga in kathmandu">
+          
         </div>
       </div>
       <div class="col-md-4 d-md-flex justify-content-center">
@@ -654,7 +654,7 @@
           <li><a href="{{ url('/accommodation') }}">ACCOMMODATION</a></li>
         </ul>
       
-        <p class="text-center copyright-para">Copyright &#169; 2019 Shivalaya. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
+        <p class="text-center copyright-para">Copyright &#169; 2019 Nepal Spiritual. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
       </div>
     </div>
   </div>

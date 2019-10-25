@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="{{ url('content/css/features.css') }}">
     <link rel="stylesheet" href="{{ url('content/css/featuresresponsive.css') }}">
     
-    <title>Features Shivalaya Yoga</title>
+    <title>Features Nepal Spiritual</title>
      <meta name="description" content="" />
     <meta name="keywords" content=""/>
     <meta name="topic" content=""/>
@@ -37,7 +37,7 @@
   <body>
     <div class="logo-div bg-white"><a href="{{ url('/') }}"><img src="{{ url('content/img/logo.png') }}"></a></div>
     <nav class="navbar navbar-light bg-white navbar-expand-lg sticky-top p-0">
-      <a class="navbar-brand p-0" href="{{ url('/') }}"><img src="{{ url('content/img/logo.png')}}" alt="Shivalaya Yoga Ashram"></a>
+      <a class="navbar-brand p-0" href="{{ url('/') }}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#shivanavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -185,7 +185,7 @@
       </div>
       <div class="col-md-4">
         <div class="text-center">
-          <img src="{{ url('content/img/logo.png')}}" alt="logo">
+         
         </div>
       </div>
       <div class="col-md-4">
@@ -210,7 +210,7 @@
           <li><a href="{{ url('/contact-us') }}">CONTACT US</a></li>
         </ul>
       
-        <p class="text-center copyright-para">Copyright &#169; 2019 Shivalaya. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
+        <p class="text-center copyright-para">Copyright &#169; 2019 Nepal Spiritual. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
       </div>
     </div>
   </div>

@@ -44,7 +44,7 @@
     <!--Font-->
     <link rel="stylesheet" href="{{ url('content/css/font.css')}}">
     
-  <title>500 Hour Yoga Teacher Training Course Curriculum - Shivalaya Yoga Ashram</title>
+  <title>500 Hour Yoga Teacher Training Course Curriculum - Nepal Spiritual</title>
    <meta name="description" content="Get Train for RYT 500- Hours yoga teacher training course at the feets of Himalayas in Nepal. This program and curriculum design is in-depth study of yoga mudras, mantras and pranayama." />
     <meta name="keywords" content="500 hours Yoga Teacher Training Curriculum, 500 Hours Yoga Teacher Training Course,Multi Style Yoga School,Multi Style Yoga School, Rishikesh: Yoga Teacher Training in India, 500 hr yoga for Masters in India"/>
     <meta name="topic" content="500 hours Yoga teacher training course - 500 hrs YTTC,500 hours Yoga teacher training course in  Nepal  "/>
@@ -664,7 +664,7 @@
       </div>
       <div class="col-md-4  d-flex align-items-center justify-content-center">
         <div class="text-center">
-          <img src="{{ url('content/img/footerlogoo.png')}}" alt="free yoga in kathmandu">
+          
         </div>
       </div>
       <div class="col-md-4 d-md-flex justify-content-center">
@@ -693,7 +693,7 @@
           <li><a href="{{ url('/accommodation') }}">ACCOMMODATION</a></li>
         </ul>
       
-        <p class="text-center copyright-para">Copyright &#169; 2019 Shivalaya. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
+        <p class="text-center copyright-para">Copyright &#169; 2019 Nepal Spiritual. All rights Reserved.<a href="#">Privacy Policy</a> | <a href="#">Terms & conditions</a></p>
       </div>
     </div>
   </div>
